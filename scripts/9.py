@@ -26,6 +26,7 @@ pyautogui.click(shellSelectFuel) #click on the 'combustiveis claros'
 time.sleep(20)
 
 # print prices
+'''
 pyautogui.click(shellClosedPopUp, clicks=5) #click for closed pop up's 
 pyautogui.moveTo(shellPrices) #move x, y, time in seconds
 time.sleep(2)
@@ -36,6 +37,7 @@ pyautogui.click(shellInfo) #click on the 'informacoes'
 time.sleep(45)
 printImg = pyautogui.screenshot('11-ShellValues.png') #generate print
 time.sleep(2)
+'''
 
 # print prices 10 days
 pyautogui.moveTo(shellRequests) #move x, y, time in seconds
