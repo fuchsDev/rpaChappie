@@ -26,8 +26,8 @@ pyautogui.press('enter') #press key
 time.sleep(20)
 
 ### IS NOT WORKING ###
-pyautogui.click(vibraClosedPopUp, clicks=5, interval=0.5) #closed 'Pop Ups'
-time.sleep(10)
+#pyautogui.click(vibraClosedPopUp, clicks=5, interval=0.5) #closed 'Pop Ups'
+#time.sleep(10)
 ### IS NOT WORKING ###
 
 
@@ -47,6 +47,7 @@ pyautogui.click(vibraOverview) #click on 'visao geral'
 pyautogui.click(vibraOverview) #you need to click twice
 time.sleep(20)
 pyautogui.press('down', presses=15) #press key
+time.sleep(2)
 printImg = pyautogui.screenshot('13-VibraValues.png') #generate print
 time.sleep(2)
 

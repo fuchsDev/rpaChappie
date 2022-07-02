@@ -105,8 +105,13 @@ portalLinxCompany = (107, 264) #click on 'empresa'
 # portal vibra
 vibraLogin = (1223, 443) #click on 'login'
 vibraClosedPopUp = (1220, 582) #click on 'vazio' closed pop up's
-vibraPay = (603, 291) #click on 'contas a pagar'
+vibraPay = (721, 288) #click on 'contas a pagar'
 vibraOverview = (131, 294) #click on 'visao geral'
+
+'''
+X:  721 Y:  288 Contas a Pagar
+
+'''
 
 # portal shell
 shellLogin = (909, 545) #click on login
