@@ -47,4 +47,9 @@ Ideias de novas funcionalidades:
 - conciliar inventários utilizando arquivos .txt;
 - elaborar escalas dos funcionários (Auto Posto);
 - calcular e projetar o mês de recebimento de bônus contratual;
-- refatorar e limpar o código;
+- refatorar e limpar o código (simplificar);
+- melhorar este readme.md (organização do projeto está estranho no github)
+
+Manutenções a fazer:
+- Portais bandeiras
+- Atualização layout linx

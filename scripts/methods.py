@@ -134,3 +134,5 @@ def loginLinxSeller(login, password):
     time.sleep(10)
     pyautogui.click(linxMatriz) #click on 'escolhe matriz linx seller'
     time.sleep(5)
+    pyautogui.click(linxConfirmarEntrar)
+    time.sleep(10)

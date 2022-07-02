@@ -24,10 +24,11 @@ compusis01Enter = (988, 500) #click on 'entrar'
 
 # linx seller
 linxNewTab = (991, 423) #click on open new tab button 'linx seller'
-linxUser = (905, 646) #linx on 'usuario linx'
-linxConnect = (858, 581) #click on 'conectar tela inicial linx'
-linxMatriz = (1686, 1019) #click on 'escolhe matriz linx seller'
-linxConsultMenu = (842, 198) #click on 'menu consultas'
+linxUser = (879, 604) #linx on 'usuario linx' (905,646)
+linxConnect = (89, 823) #click on 'conectar tela inicial linx' (858, 581)
+linxMatriz = (914, 649) #click on 'escolhe matriz linx seller' (1686, 1019)
+linxConfirmarEntrar = (1145, 840)
+linxConsultMenu = (657, 215) #click on 'menu consultas'
 
 # linx seller web 'fechar turnos'
 linxShortcurtClosedCx = (85, 300) #shortcut in the left side menu 'conferencia de turno'
@@ -37,14 +38,31 @@ linxClosedA = (1632, 326) #click on 'fechar caixas 2'
 linxConfirmClose = (1157, 190) #click on 'confirma o fechamento'
 
 # linx seller web 'sumprimentos'
-linxMenuTreasury = (842, 363) #click on 'menu tesouraria'
-linxMenuChangesPayment = (1070, 362) #click on 'alteracoes forma de pagamento'
-linxMenuBleedsSupplies = (1070, 426) #click on 'sangrias e suprimentos'
-linxSuplliesData01 = (134, 270) #click on 'data 1 dos suprimentos'
-linxSuppliesData02 = (286, 270) #click on 'data 2 dos suprimentos'
-linxSuppliesOk = (150, 414) #click on 'ok'
-linxSuppliesDownload = (350, 414) #click on 'download'
-linxSuppliesSave = (1517, 152) #click on 'save'
+linxMenuTreasury = (665, 542) #click on 'menu tesouraria'
+linxMenuChangesPayment = (954, 541) #click on 'alteracoes forma de pagamento'
+linxMenuBleedsSupplies = (946, 634) #click on 'sangrias e suprimentos'
+
+'''
+X:  657 Y:  215 consultas 
+X:  665 Y:  542 tesouraria 
+X:  954 Y:  541 alterações forma de pagamento
+X:  946 Y:  634 sangrias e suprimentos
+'''
+
+
+linxSuplliesData01 = (153, 304) #click on 'data 1 dos suprimentos'
+linxSuppliesData02 = (306, 304) #click on 'data 2 dos suprimentos'
+linxSuppliesOk = (149, 449) #click on 'ok'
+linxSuppliesDownload = (340, 449) #click on 'download'
+linxSuppliesSave = (1518, 150) #click on 'save'
+
+'''
+X:  153 Y:  304
+X:  306 Y:  305
+X:  149 Y:  449
+X:  340 Y:  449
+X: 1518 Y:  150
+'''
 
 # sinx seller web 'recebimentos'
 linxShortcutReceiving = (74, 446) #shortcut in the left side menu
