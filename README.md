@@ -53,3 +53,5 @@ Ideias de novas funcionalidades:
 Manutenções a fazer:
 - Portais bandeiras
 - Atualização layout linx
+- Aplicar Clean Code e passar para portugues
+- Simplificar esse readme.md
