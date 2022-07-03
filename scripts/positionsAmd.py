@@ -65,12 +65,42 @@ X: 1518 Y:  150
 '''
 
 # sinx seller web 'recebimentos'
-linxShortcutReceiving = (74, 446) #shortcut in the left side menu
-linxReceivingDate = (269, 309) #selected data field in 'recebimentos'
-linxDateOk = (163, 384) #click ok button to search
-linxExpandReceipts = (996, 452) #click on the line to expand
-linxDownloadReceipts = (361, 383) #click on download
-linxSaveReceipts = (1517, 152) #click save file
+linxShortcutReceiving = (74, 446) #shortcut in the left side menu /off
+
+linxMenuFinanceiro = (318, 215)
+linxFinanceiroContasReceber = (345, 318)
+linxFinanceiroTitulos = (611, 322)
+linxFinanceiroConsultas = (608, 460)
+linxFinanceiroExtrato = (828, 458)
+linxFinanceiroRecebimento = (830, 500)
+
+'''
+X:  318 Y:  215 financeiro
+X:  345 Y:  318 contas a receber
+X:  611 Y:  322 gerenciamento de titulos
+X:  608 Y:  460 consultas
+X:  828 Y:  458 extrato
+X:  830 Y:  500 recebimento
+
+'''
+
+
+linxReceivingDate = (289, 341) #selected data field in 'recebimentos'
+linxDateOk = (161, 422) #click ok button to search
+linxExpandReceipts = (768, 492) #click on the line to expand
+linxDownloadReceipts = (364, 421) #click on download
+linxSaveReceipts = (1518, 150) #click save file
+
+'''
+X:  289 Y:  341 data inicial
+X:  161 Y:  422 ok
+X:  768 Y:  492 expande a pesquisa
+X:  364 Y:  421 download
+X: 1518 Y:  150 salvar dowload
+X: 1903 Y: 1044 fecha o dowload no brave
+'''
+
+
 
 # sinx seller web 'descontos'
 linxMenuAudit = (847, 330) #click on 'auditoria'

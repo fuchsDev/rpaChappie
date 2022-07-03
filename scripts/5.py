@@ -17,7 +17,20 @@ runLinxNewTab() #call method open newtab with linxseller in methods.py
 loginLinxSeller(loginLinx, passwordLinx) #send variables to method in methods.py
 
 # download .xlxs
-pyautogui.click(linxShortcutReceiving) #shortcut receipts    
+#pyautogui.click(linxShortcutReceiving) #shortcut receipts    
+pyautogui.moveTo(linxMenuFinanceiro) 
+time.sleep(3)
+pyautogui.moveTo(linxFinanceiroContasReceber)   
+time.sleep(3)        
+pyautogui.moveTo(linxFinanceiroTitulos)     
+time.sleep(3)        
+pyautogui.moveTo(linxFinanceiroConsultas) 
+time.sleep(3)
+pyautogui.moveTo(linxFinanceiroExtrato)
+time.sleep(3)
+pyautogui.click(linxFinanceiroRecebimento) 
+
+
 time.sleep(15)
 pyautogui.click(linxReceivingDate) #select date field
 time.sleep(2)
