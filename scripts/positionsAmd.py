@@ -112,15 +112,31 @@ linxDescountClient = (174, 415) #click on 'campo cliente'
 linxDicountOk = (149, 624) #click on 'ok'
 
 # linx weller web 'afericoes'
-linxMenuInventory = (833, 237) #click on 'menu estoque'
-linxMenuSpin = (1065, 237) #click on 'menu giro'
-linxMenuMoviment = (1065, 335) #click on 'movimentacao gerencial'
-linxDataScounting = (171, 382) #click on 'campo data afericao'
-linxEmptyScounting = (643, 586) #click on 'vazio'
-linxOperationsScouting = (222, 767) #click on 'operacocoes em afericoes'
-linxScoutingScounting = (124, 906) #click on 'afericoes em afericoes'
-linxEmptyScountiTwo =(643, 586) #click on 'vazio'
-linxToApplyScounting = (110, 1024) #click on 'aplicar'
+linxMenuInventory = (657, 362) #click on 'menu estoque'
+linxMenuSpin = (941, 361) #click on 'menu giro'
+linxMenuMoviment = (929, 500) #click on 'movimentacao gerencial'
+
+'''
+X:  658 Y:  217 menu consultas
+X:  657 Y:  362 estoque
+X:  941 Y:  361 giro
+X:  929 Y:  500 movimentacao gerencial
+'''
+
+linxDataScounting = (158, 418) #click on 'campo data afericao'
+linxEmptyScounting = (1749, 345) #click on 'vazio'
+linxOperationsScouting = (144, 794) #click on 'operacocoes em afericoes'
+linxScoutingScounting = (116, 941) #click on 'afericoes em afericoes'
+linxEmptyScountiTwo =(1749, 345) #click on 'vazio'
+linxToApplyScounting = (104, 1058) #click on 'aplicar'
+
+'''
+X:  158 Y:  418 primeira data
+X: 1749 Y:  345 vazio
+X:  144 Y:  794 operacoes
+X:  116 Y:  941 afericoes
+X:  104 Y: 1058 aplicar
+'''
 
 # linx portal
 portalLinxUser = (1356, 424) #click on 'usuario'
