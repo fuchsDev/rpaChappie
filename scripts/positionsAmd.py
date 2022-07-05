@@ -103,13 +103,26 @@ X: 1903 Y: 1044 fecha o dowload no brave
 
 
 # sinx seller web 'descontos'
-linxMenuAudit = (847, 330) #click on 'auditoria'
-linxMenuChanges = (1067, 330) #click on 'alteracao ingredientes'
-linxMenuSales = (1067, 588) #click on 'alteracao ingredientes'
-linxDiscountDateField = (638, 289) #click on 'campo data desconto'
-linxDiscountBox = (147, 531) #click on 'caixa apenas desconto'
-linxDescountClient = (174, 415) #click on 'campo cliente'
-linxDicountOk = (149, 624) #click on 'ok'
+linxMenuAudit = (649, 497) #click on 'auditoria'
+linxMenuChanges = (938, 500) #click on 'alteracao ingredientes'
+linxMenuSales = (935, 816) #click on 'vendas doc fiscal'
+
+linxDiscountDateField = (631, 325) #click on 'campo data desconto'
+linxDiscountBox = (141, 569) #click on 'caixa apenas desconto'
+linxDescountClient = (152, 450) #click on 'campo cliente'
+linxDicountOk = (147, 662) #click on 'ok'
+
+'''
+X:  649 Y:  497 auditoria
+X:  938 Y:  500 alteracao ingredientes
+X:  935 Y:  816 vendas por doc fiscal
+
+X:  631 Y:  325 compo data
+X:  141 Y:  569 caixa apenas desconto
+X:  152 Y:  450 campo cliente
+X:  147 Y:  662 ok
+
+'''
 
 # linx weller web 'afericoes'
 linxMenuInventory = (657, 362) #click on 'menu estoque'
