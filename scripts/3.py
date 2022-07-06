@@ -16,7 +16,20 @@ runLinxNewTab() #call method open newtab with linxseller in methods.py
 loginLinxSeller(loginLinx, passwordLinx) #send variables to method in methods.py
 
 # check shifts
-pyautogui.click(linxShortcurtClosedCx) #shift check shortcut
+#pyautogui.click(linxShortcurtClosedCx) #shift check shortcut
+
+
+
+'''
+criar novas variaveis 
+X:  212 Y:  217 operacoes
+X:  212 Y:  408 tesouraria 
+X:  510 Y:  406 alteracao forma de pagamento
+X:  497 Y:  504 conferencia de turno
+'''
+
+
+
 time.sleep(10)
 pyautogui.click(linxOpenCx) #Click on the open cashier on the right
 time.sleep(10)
