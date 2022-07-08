@@ -31,11 +31,35 @@ linxConfirmarEntrar = (1145, 840)
 linxConsultMenu = (657, 215) #click on 'menu consultas'
 
 # linx seller web 'fechar turnos'
-linxShortcurtClosedCx = (85, 300) #shortcut in the left side menu 'conferencia de turno'
-linxOpenCx = (1291, 449) #click on 'caixas em aberto'
-linxClosedN =   (1455, 327) #click on 'fechar caixas 1'
-linxClosedA = (1632, 326) #click on 'fechar caixas 2'
-linxConfirmClose = (1157, 190) #click on 'confirma o fechamento'
+linxShortcurtClosedCx = (85, 300) #shortcut in the left side menu 'conferencia de turno' off
+
+
+linxOpenCx = (1312, 486) #click on 'caixas em aberto'
+linxClosedN =   (1453, 363) #click on 'fechar caixas 1' nenhum fechado
+linxClosedA = (1634, 359) #click on 'fechar caixas 2' 1 ou mais fechado
+linxConfirmClose = (1159, 196) #click on 'confirma o fechamento'
+
+'''
+X: 1312 Y:  486
+X: 1453 Y:  363
+X: 1634 Y:  359
+X: 1159 Y:  196
+X: 1164 Y:  200
+
+'''
+
+linxMenuOperacoes = (212, 217)
+linxOperacoesTesouraria = (212, 408)
+linxOperacoesTesourariaAlteracao = (510, 406)
+linxOperacoesTesourariaAlteracaoConferenciaTurno = (497, 504)
+
+'''
+criar novas variaveis 
+X:  212 Y:  217 operacoes
+X:  212 Y:  408 tesouraria 
+X:  510 Y:  406 alteracao forma de pagamento
+X:  497 Y:  504 conferencia de turno
+'''
 
 # linx seller web 'sumprimentos'
 linxMenuTreasury = (665, 542) #click on 'menu tesouraria'

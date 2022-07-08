@@ -18,17 +18,13 @@ loginLinxSeller(loginLinx, passwordLinx) #send variables to method in methods.py
 # check shifts
 #pyautogui.click(linxShortcurtClosedCx) #shift check shortcut
 
-
-
-'''
-criar novas variaveis 
-X:  212 Y:  217 operacoes
-X:  212 Y:  408 tesouraria 
-X:  510 Y:  406 alteracao forma de pagamento
-X:  497 Y:  504 conferencia de turno
-'''
-
-
+pyautogui.click(linxMenuOperacoes)
+time.sleep(3)
+pyautogui.moveTo(linxOperacoesTesouraria)
+time.sleep(3)
+pyautogui.moveTo(linxOperacoesTesourariaAlteracao)
+time.sleep(3)
+pyautogui.click(linxOperacoesTesourariaAlteracaoConferenciaTurno)
 
 time.sleep(10)
 pyautogui.click(linxOpenCx) #Click on the open cashier on the right
