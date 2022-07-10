@@ -1,14 +1,12 @@
 ##
-## automates the task of compusis
+## rotina inicio de dia no sistema compusis fl01
 ## 
 
-# import the py libraries and files
 import pyautogui
 import time
 from variables import *
 from methods import *
 
-# compusisWeb Fl01 methods
 noteBook() #check which laptop is in use 
 runBrave() #start the browser brave
 runUrl(linkCompusisFl01) #type the url 

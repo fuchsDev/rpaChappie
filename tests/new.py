@@ -5,6 +5,20 @@
 # criar um aviso de faturamentos de clientes por dia conforme agenda
 # pensar na situação de feriados e final de semana
 
+'''
+Ideias de novas funcionalidades:
+- lembretes dos clientes que tem faturamento agendado para o dia (Auto Posto);
+- fechamento dos PDVs pelo Compusis Web (3817);
+- rotina de LMC Compusis Web (3779);
+- download de relatórios mensais usados no DRE Gerencial;
+- print dos produtos cadastrados no dia anterior nos sistemas Linx e Compusis;
+- verificar se planilha de cobranças dos clientes foi atualizada;
+- conciliar inventários utilizando arquivos .txt;
+- elaborar escalas dos funcionários (Auto Posto);
+- calcular e projetar o mês de recebimento de bônus contratual;
+- refatorar e limpar o código (simplificar);
+'''
+
 import datetime
 
 clientShell = ""

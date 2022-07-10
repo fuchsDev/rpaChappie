@@ -1,6 +1,8 @@
 ## positions note Intel fk-Aspire-A315-56 80% brownser brave
 ## using the pattern: appInformation
 
+# esta desatualizado com o novo layout da linx
+
 # brave
 braveStart = (27, 53) #click on brave icon
 braveClosedDownload = (1343, 734) #close bottom bar Download
