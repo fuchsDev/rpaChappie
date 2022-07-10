@@ -4,7 +4,7 @@
 
 #declares array
 nameScript=( 
-"00 - SolarView"   
+"00 - EnergiaSolar"   
 "01 - RotinaCompusisWebFl01" 
 "02 - RotinaCompusisWebFl02" 
 "03 - RotinaLinxLinxPDV"

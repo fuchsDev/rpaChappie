@@ -1,16 +1,16 @@
-## positions note AMD 100% brownser brave
-## using the pattern: appInformation
+## posicoes notebook amd 100% brave zoom
+## padrao das variaveis: aplicacaoInformacao 
 
 # brave
-braveStart = (29, 56) #click on brave icon
-braveClosedDownload = (1906, 1042) #close bottom bar Download
+braveStart = (29, 56) 
+braveClosedDownload = (1906, 1042) 
 
 # solar view
-solarInsertEmail = (1536, 411) #click on 'inserir email'
-solarProfile = (1862, 156) #click on 'perfil'
-solarExit = (1666, 258) #click on 'sair do perfil'
-solarCaptcha = (1408, 639) #click on 'marca captcha'
-solarLogin = (1533, 718) #click on 'login'
+solarInsertEmail = (1536, 411) 
+solarPerfil = (1862, 156)
+solarSair = (1666, 258) 
+solarCaptcha = (1408, 639) 
+solarEntrar = (1533, 718) 
 
 # compusis web
 compusisSearchFlags = (138, 312) #click on 'pesquisar bandeiras'
