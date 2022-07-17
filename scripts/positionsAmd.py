@@ -102,15 +102,15 @@ vibraPay = (721, 288) #click on 'contas a pagar'
 vibraOverview = (131, 294) #click on 'visao geral'
 
 # portal shell
-shellLogin = (909, 545) #click on login
-shellSelectFuel = (988, 705) #click on 'combustiveis claros'
-shellClosedPopUp = (1748, 324) #click for closed pop up's 
-shellPrices = (763, 213) #click on 'preços'
-shellInfo = (1007, 260) #click on 'informacoes'
-shellRequests = (460, 215) #click on 'pedidos'
-shellJoinRequests = (460, 260) #click on 'ingressar pedidos'
-shellFinancial = (617, 210) #click on 'financeiro'
-shellAccountStatement = (612, 261) #click on 'extrato de contas'
+shellLogin = (909, 545) 
+shellSelecionaCombustiveisClaros = (988, 705) 
+#shellClosedPopUp = (1748, 324) 
+#shellPrices = (763, 213) #click on 'preços'
+#shellInfo = (1007, 260) #click on 'informacoes'
+shellPedidos = (460, 215)
+shellIngressarPedidos = (460, 260) 
+shellFinanceiro = (617, 210) 
+shellFinanceiroExtratoContas = (612, 261) 
 
 # portal ipiranga
 ipirangaLogin = (749, 708) #click on 'campo login'

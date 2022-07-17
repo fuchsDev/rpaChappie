@@ -1,62 +1,41 @@
-##
-## automates the task of shell cs online
-## 
+## verificar os preços e as duplicatas no portal cs online shell
 
-# import the py libraries and files
-import pyautogui
-import time
-from variables import *
 from methods import *
 
-# shell cs online
-noteBook() #check which laptop is in use 
-runBrave() #start the browser brave
-runUrl(linkShell) #type the url
+# verifica o notebook / acessa o brave / digita o link
+noteBook() 
+runBrave() 
+runUrl(linkShell) 
 
 # login cs online
-pyautogui.click(shellLogin) #click login
+pyautogui.click(shellLogin)
 time.sleep(5)
-pyautogui.write(loginShell) #type login of variables.py
+pyautogui.write(loginShell) 
 time.sleep(2)
-pyautogui.press('tab') #press key
-pyautogui.write(passwordShell) #type password of variables.py
-pyautogui.press('enter') #press key
+pyautogui.press('tab') 
+pyautogui.write(passwordShell) 
+pyautogui.press('enter') 
 time.sleep(10)
-pyautogui.click(shellSelectFuel) #click on the 'combustiveis claros'
+pyautogui.click(shellSelecionaCombustiveisClaros) 
 time.sleep(20)
 
-# print prices
-'''
-pyautogui.click(shellClosedPopUp, clicks=5) #click for closed pop up's 
-pyautogui.moveTo(shellPrices) #move x, y, time in seconds
+# verifica os valores para pedido com 10 dias
+pyautogui.moveTo(shellPedidos) 
 time.sleep(2)
-pyautogui.click(shellPrices) #click on the 'preços'
-pyautogui.moveTo(shellInfo) #move x, y, time in seconds
+pyautogui.moveTo(shellIngressarPedidos) 
 time.sleep(2)
-pyautogui.click(shellInfo) #click on the 'informacoes'
+pyautogui.click(shellIngressarPedidos) 
 time.sleep(45)
-printImg = pyautogui.screenshot('11-ShellValues.png') #generate print
-time.sleep(2)
-'''
-
-# print prices 10 days
-pyautogui.moveTo(shellRequests) #move x, y, time in seconds
-time.sleep(2)
-#pyautogui.click(shellRequests) #click on the 'pedidos'
-pyautogui.moveTo(shellJoinRequests) #move x, y, time in seconds
-time.sleep(2)
-pyautogui.click(shellJoinRequests) #click on 'ingressar pedidos'
-time.sleep(45)
-printImg = pyautogui.screenshot('11-ShellValues10.png') #generate print
+printImg = pyautogui.screenshot('11-ShellValoresCombustiveis.png')
 time.sleep(2)
 
-# print financial
-pyautogui.moveTo(shellFinancial) #move to 'financeiro'
+# verificar duplicatas em aberto no financeiro
+pyautogui.moveTo(shellFinanceiro) 
 time.sleep(2)
-pyautogui.moveTo(shellAccountStatement) #move to 'extrato de contas'
+pyautogui.moveTo(shellFinanceiroExtratoContas) 
 time.sleep(2)
-pyautogui.click(shellAccountStatement) #click on 'extrato de contas'
+pyautogui.click(shellFinanceiroExtratoContas) 
 time.sleep(20)
 
-printImg = pyautogui.screenshot('12-ShellDuplicates.png') #generate print
+printImg = pyautogui.screenshot('12-ShellDuplicatas.png')
 closedBrave()
