@@ -1,10 +1,3 @@
-#
-# remember billing dates
-#
-
-# criar um aviso de faturamentos de clientes por dia conforme agenda
-# pensar na situação de feriados e final de semana
-
 '''
 Ideias de novas funcionalidades:
 - lembretes dos clientes que tem faturamento agendado para o dia (Auto Posto);
@@ -19,6 +12,8 @@ Ideias de novas funcionalidades:
 - refatorar e limpar o código (simplificar);
 '''
 
+
+# testando/criando rotina de lembretes dos faturamentos
 import datetime
 
 clientShell = ""

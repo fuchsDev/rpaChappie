@@ -1,24 +1,22 @@
-##
-## automates the task of compusis
-## 
+## rotina inicio de dia no sistema compusis fl02
 
-# import the py libraries and files
-import pyautogui
 from variables import *
 from methods import *
 
-# compusisWeb Fl02 methods
-noteBook() #check which laptop is in use 
-runBrave() #start the browser brave
-runUrl(linkCompusisFl02) #type the url 
-loginCompusis(loginCompusisFl02, passwordCompusisFl02) #send variables to method in methods.py
+# verifica o notebook / acessa o brave e digita o link
+noteBook() 
+runBrave() 
+runUrl(linkCompusisFl02)
 
-run1908() #call method that is in methods.py
-printImg = pyautogui.screenshot('04-CompusisShell1908.png') #generate print
-closedBrave() #call method that is in methods.py /closed tab
+# metodo para login no compusis web
+loginCompusis(loginCompusisFl02, passwordCompusisFl02) 
 
-run1980() #call method that is in methods.py
-printImg = pyautogui.screenshot('05-CompusisShell1980.png') #generate print
-closedBrave() #call method that is in methods.py
+# executa rotina de verificar bandeira e abrir dia do movimento
+run1908() 
+printImg = pyautogui.screenshot('04-CompusisShell1908.png') 
+closedBrave()
+run1980() 
+printImg = pyautogui.screenshot('05-CompusisShell1980.png') 
+closedBrave() 
 
 closedBrave()

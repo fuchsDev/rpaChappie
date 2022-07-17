@@ -1,61 +1,53 @@
-##
-## automates the task of linx portal web
-## 
+## verifica chamados e duplicatas no portal linx cliente
 
-# import the py libraries and files
-import pyautogui
-import time
-from datetime import date
-from variables import *
 from methods import *
 
-# linx portal web
-noteBook() #check which laptop is in use 
-yesterday = getDateYesterday() #take yesterday's date
-runBrave() #start the browser brave
-runUrl(linkLinxPortal) #type url of variables.py
+# verifica o notebook / acessa o brave e digita o link
+noteBook()
+runBrave()
+runUrl(linkLinxPortal) 
 
-# login portal linx web
-pyautogui.click(portalLinxUser) #click on 'usuario' 
+# login portal linx web #o login pode ser um metodo igual os outros
+pyautogui.click(portalLinxUsuario) 
 time.sleep(5)
-pyautogui.write(loginLinxPortal) #type login of variables.py
+pyautogui.write(loginLinxPortal) 
 time.sleep(2)
-pyautogui.press('tab') #press key
-pyautogui.write(passwordLinxPortal) #type password of variable.py
-pyautogui.press('enter') #press key
+pyautogui.press('tab') 
+pyautogui.write(passwordLinxPortal) 
+pyautogui.press('enter') 
 time.sleep(5)
-pyautogui.click(portalLinxSend) #click on 'enviar'
+pyautogui.click(portalLinxEnviar) 
 time.sleep(60)
 
-# print support calls
-pyautogui.moveTo(portalLinxSupport) #move x, y, time in seconds
+# verificar chamados em aberto no suporte
+pyautogui.moveTo(portalLinxMenuSuporte) 
 time.sleep(2)
-pyautogui.click(portalLinxSupport) #click on 'menu suporte'
+pyautogui.click(portalLinxMenuSuporte) 
 time.sleep(2)
-pyautogui.moveTo(portalLinxCalls) #move x, y, time in seconds
+pyautogui.moveTo(portalLinxPainelChamados) 
 time.sleep(2)
-pyautogui.click(portalLinxCalls) #click on 'menu painel de chamados'
+pyautogui.click(portalLinxPainelChamados) 
 time.sleep(10)
-printImg = pyautogui.screenshot('09-LinxPortal01.png') #generate print
+printImg = pyautogui.screenshot('09-LinxPortalChamados.png')
 time.sleep(2)
 
-# print financial
-pyautogui.moveTo(portalLinxfinancial)
+# verifica duplicatas a pagar
+pyautogui.moveTo(portalLinxMenuFinanceiro)
 time.sleep(2)
-pyautogui.click(portalLinxfinancial) #click on 'financeiro'
+pyautogui.click(portalLinxMenuFinanceiro)
 time.sleep(2)
-pyautogui.moveTo(portalLinxAccounts) #move to on 'faturas'
+pyautogui.moveTo(portalLinxFinanceiroFaturas) 
 time.sleep(2)
-pyautogui.click(portalLinxAccounts) #click on 'faturas'
+pyautogui.click(portalLinxFinanceiroFaturas) 
 time.sleep(30)
-pyautogui.moveTo(portalLinxArrow) #move to on 'seta'
+pyautogui.moveTo(portalLinxFinanceiroSeta) 
 time.sleep(2)
-pyautogui.click(portalLinxArrow) #click on 'seta'
+pyautogui.click(portalLinxFinanceiroSeta)
 time.sleep(10)
-pyautogui.moveTo(portalLinxCompany) #move to on 'empresa'
+pyautogui.moveTo(portalLinxFinanceiroEmpresa)
 time.sleep(2)
-pyautogui.click(portalLinxCompany) #click on 'empresa'
+pyautogui.click(portalLinxFinanceiroEmpresa) 
 time.sleep(20)
 
-printImg = pyautogui.screenshot('10-LinxPortal02.png') #generate print
-closedBrave() #closed tab the browser brave
+printImg = pyautogui.screenshot('10-LinxPortalDuplicatas.png')
+closedBrave()

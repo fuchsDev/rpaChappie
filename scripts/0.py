@@ -1,11 +1,7 @@
-##
 ## verifica o funcionamento dos paineis de energia solar;
-##
 
-import pyautogui
-import time 
-from variables import *
 from methods import *
+from variables import *
 
 # verifica o notebook / acessa o brave e digita o link
 noteBook() 
