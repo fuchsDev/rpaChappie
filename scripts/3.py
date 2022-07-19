@@ -1,23 +1,16 @@
-##
-## automates the task of linx seller
-## 
+## fechas os PDVs que estão em aberto do dia anterior
 
-# import the py libraries and files
-import pyautogui
-import time
-from variables import *
 from methods import *
 
-# linx seller web 'fechar cxs'
-noteBook() #check which laptop is in use 
-runBrave() #start the browser brave
-runUrl(linkLinx) #type the url  
-runLinxNewTab() #call method open newtab with linxseller in methods.py
-loginLinxSeller(loginLinx, passwordLinx) #send variables to method in methods.py
+# verifica o notebook / acessa o brave / digita o link
+noteBook() 
+runBrave() 
+runUrl(linkLinx) 
 
-# check shifts
-#pyautogui.click(linxShortcurtClosedCx) #shift check shortcut
+runLinxNewTab() 
+loginLinxSeller(loginLinx, passwordLinx)
 
+# acessa a tela de conferencia de turnos
 pyautogui.click(linxMenuOperacoes)
 time.sleep(3)
 pyautogui.moveTo(linxOperacoesTesouraria)
@@ -25,18 +18,17 @@ time.sleep(3)
 pyautogui.moveTo(linxOperacoesTesourariaAlteracao)
 time.sleep(3)
 pyautogui.click(linxOperacoesTesourariaAlteracaoConferenciaTurno)
-
 time.sleep(10)
-pyautogui.click(linxOpenCx) #Click on the open cashier on the right
+pyautogui.click(linxTurnosCaixasAberto) 
 time.sleep(10)
-pyautogui.click(linxClosedN) #Click Closed Cx's position - 'none closed'
+pyautogui.click(linxTurnosFechaPDVN)
 time.sleep(2)
-pyautogui.click(linxClosedA) #Click Closed Cx's position - 'when it has already closed'
+pyautogui.click(linxTurnosFechaPDVA)
 time.sleep(15)
-pyautogui.click(linxConfirmClose) #Click confirm close 1
+pyautogui.click(linxTurnosCaixasConfirmaFechar) 
 time.sleep(15)
-pyautogui.click(linxConfirmClose) #Click Confirma close 2
+pyautogui.click(linxTurnosCaixasConfirmaFechar)
 time.sleep(15)
 
-printImg = pyautogui.screenshot('06-LinxPDV.png') #generate print
+printImg = pyautogui.screenshot('06-LinxPDV.png')
 closedBrave()

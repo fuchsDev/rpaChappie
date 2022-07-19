@@ -31,15 +31,14 @@ linxConfirmarEntrar = (1145, 840)
 linxConsultMenu = (657, 215) #click on 'menu consultas'
 
 # linx seller web 'fechar turnos'
-linxShortcurtClosedCx = (85, 300) #shortcut in the left side menu 'conferencia de turno' off
 linxMenuOperacoes = (212, 217)
 linxOperacoesTesouraria = (212, 408)
 linxOperacoesTesourariaAlteracao = (510, 406)
 linxOperacoesTesourariaAlteracaoConferenciaTurno = (497, 504)
-linxOpenCx = (1312, 486) #click on 'caixas em aberto'
-linxClosedN =   (1453, 363) #click on 'fechar caixas 1' nenhum fechado
-linxClosedA = (1634, 359) #click on 'fechar caixas 2' 1 ou mais fechado
-linxConfirmClose = (1159, 196) #click on 'confirma o fechamento'
+linxTurnosCaixasAberto = (1312, 486) 
+linxTurnosFechaPDVN=   (1453, 363) 
+linxTurnosFechaPDVA = (1634, 359)
+linxTurnosCaixasConfirmaFechar = (1159, 196)
 
 # linx seller web 'sumprimentos'
 linxMenuTreasury = (665, 542) #click on 'menu tesouraria'
@@ -104,9 +103,6 @@ vibraOverview = (131, 294) #click on 'visao geral'
 # portal shell
 shellLogin = (909, 545) 
 shellSelecionaCombustiveisClaros = (988, 705) 
-#shellClosedPopUp = (1748, 324) 
-#shellPrices = (763, 213) #click on 'preços'
-#shellInfo = (1007, 260) #click on 'informacoes'
 shellPedidos = (460, 215)
 shellIngressarPedidos = (460, 260) 
 shellFinanceiro = (617, 210) 
